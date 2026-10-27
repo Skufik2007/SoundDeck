@@ -2,6 +2,18 @@
 
 Куда и как громко звучит каждая программа, в одном окне у часов.
 
+## Скачать
+
+1. Скачайте `SoundDeck.exe` со страницы [последнего релиза](https://github.com/Skufik2007/SoundDeck/releases/latest).
+2. Нужен .NET 8 Desktop Runtime (x64). Если его нет, Windows предложит
+   скачать его при первом запуске, или поставьте заранее:
+   https://dotnet.microsoft.com/download/dotnet/8.0
+3. Положите `SoundDeck.exe` в постоянную папку, например
+   `%LOCALAPPDATA%\Programs\SoundDeck\`, и запустите.
+   Автозапуск включается в меню значка в трее.
+
+Работает в Windows 10 и 11 (x64).
+
 ## Как пользоваться
 
 Щелчок по значку в трее (три фейдера) или **Ctrl+Alt+D** открывает пульт:
@@ -37,7 +49,7 @@
 
 ## Установка
 
-`%LOCALAPPDATA%\Programs\SoundDeck\SoundDeck.exe`, автозапуск через
+Рекомендуемое место: `%LOCALAPPDATA%\Programs\SoundDeck\SoundDeck.exe`, автозапуск через
 `HKCU\...\Run` (выключается в меню значка). После падения пульт сам
 перезапускается, не больше трёх раз за 10 минут.
 
